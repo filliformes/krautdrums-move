@@ -47,6 +47,9 @@ docker rm "$CONTAINER_ID" > /dev/null
 # Copy module.json alongside the .so
 cp "$ROOT/src/module.json" "$ROOT/dist/$MODULE_ID/"
 
+# Copy help.json if present (Shadow UI loads it via per-module dir walk)
+[ -f "$ROOT/src/help.json" ] && cp "$ROOT/src/help.json" "$ROOT/dist/$MODULE_ID/"
+
 # Bundle for release
 tar -czf "$ROOT/dist/${MODULE_ID}-module.tar.gz" -C "$ROOT/dist" "$MODULE_ID/"
 

@@ -1,0 +1,185 @@
+{
+  "title": "KrautDrums",
+  "children": [
+    {
+      "title": "About",
+      "lines": [
+        "16-voice tonal drums",
+        "modeled on the 1969",
+        "Elka Drummer One.",
+        "",
+        "Bridged-T resonators",
+        "+ Krautrock studio",
+        "chain (V72, A80,",
+        "Synthi, EMT, EP-3)."
+      ]
+    },
+    {
+      "title": "Pads",
+      "lines": [
+        "Left 16 (n.36-51):",
+        " voice triggers,",
+        " velocity sensitive",
+        "",
+        "Right 16 (n.52-67):",
+        " rhythm pattern",
+        " toggles (latching)",
+        "",
+        "Up to 8 rhythms can",
+        "play at once, OR-",
+        "merged with density",
+        "gating on overlap."
+      ]
+    },
+    {
+      "title": "Page: Kraut",
+      "lines": [
+        "Voice family levels.",
+        "",
+        "K1 Bass",
+        "K2 Conga",
+        "K3 Tom 1",
+        "K4 Tom 2",
+        "K5 Claves",
+        "K6 Snare",
+        "K7 Cow Bell",
+        "K8 Cymbals (S/L/M",
+        "    share this knob)"
+      ]
+    },
+    {
+      "title": "Page: FX",
+      "lines": [
+        "K1 Delay Mix",
+        "K2 Delay Time",
+        "    Free: 10-1000 ms",
+        "    Sync: 1/64-1/1",
+        "K3 Delay Fdbk",
+        "    RE-201 self-osc",
+        "    at 95%+",
+        "K4 Reverb Mix",
+        "K5 Reverb Dcy",
+        "K6 Reverb Tone",
+        "K7 Bus Comp",
+        "    hard limit +",
+        "    makeup pump",
+        "K8 All Decay",
+        "    Q scale 1x-16x",
+        "    = drone / wash",
+        "",
+        "Menu-only:",
+        " Delay Sync",
+        " Delay Type",
+        " Reverb Mode"
+      ]
+    },
+    {
+      "title": "Page: Attitude",
+      "lines": [
+        "Pre-FX studio chain.",
+        "",
+        "K1 Drive (V72 tube",
+        "    + transformer)",
+        "K2 Tape (Studer A80",
+        "    sat + head bump",
+        "    + HF rolloff)",
+        "K3 HPF 30-500 Hz",
+        "K4 Body (+/-6 dB",
+        "    @ 80 Hz)",
+        "K5 Air (+/-6 dB",
+        "    @ 6 kHz)",
+        "K6 Cutoff (Synthi",
+        "    diode ladder)",
+        "K7 Reso (k=0..3.95,",
+        "    self-osc near max)",
+        "K8 Phaser (Phase 90",
+        "    rate + depth +",
+        "    wet, one knob)"
+      ]
+    },
+    {
+      "title": "Page: General",
+      "lines": [
+        "K1 Tempo 60-200 BPM",
+        "    (Free mode only)",
+        "K2 Tempo Mode",
+        "    Free / Sync",
+        "K3 Drift (ceramic",
+        "    cap aging model)",
+        "K4 Limiter on/off",
+        "K5 M.Volume",
+        "K6 Density (rhythm",
+        "    trigger gate)",
+        "",
+        "K7, K8 unused"
+      ]
+    },
+    {
+      "title": "Rhythms",
+      "lines": [
+        "16 Drummer One",
+        "presets. Right pads",
+        "toggle, OR-merged.",
+        "",
+        "Bot row pads:",
+        " Waltz, Tango,",
+        " Polka, Paso Doble",
+        "Row 2:",
+        " Swing, Slow,",
+        " Beguine, Cha-Cha",
+        "Row 3:",
+        " Rumba, Samba,",
+        " Mambo, Bossa-Nova",
+        "Top row:",
+        " Rock, Slow Rock,",
+        " Shake, R & Blues"
+      ]
+    },
+    {
+      "title": "FX Voicings",
+      "lines": [
+        "Delay Type:",
+        " Tape = Echoplex",
+        "  EP-3 (FET preamp,",
+        "  9.5 kHz bump)",
+        " Magnetic = Binson",
+        "  Echorec (4-tap,",
+        "  drum wobble)",
+        " Space = Roland",
+        "  RE-201 (self-osc",
+        "  at high fdbk)",
+        "",
+        "Reverb Mode:",
+        " Plate = EMT 140",
+        "  (Dattorro tank)",
+        " Spring = AKG BX20",
+        "  (Parker dispers.)",
+        " Chamber = Plank",
+        "  Meistersaal room"
+      ]
+    },
+    {
+      "title": "Tips",
+      "lines": [
+        "All Decay > 50% for",
+        " sustained drone",
+        " pad textures.",
+        "",
+        "RE-201 + Fdbk 95%+",
+        " for Phaedra-style",
+        " self-oscillation.",
+        "",
+        "Tape + Drive high =",
+        " warm tape crush",
+        " and head bump.",
+        "",
+        "Cutoff sweep at high",
+        " Q: classic Synthi",
+        " VCS3 squelch.",
+        "",
+        "Drift: subtle 1969",
+        " ceramic-cap wobble"
+      ]
+    }
+  ]
+}
