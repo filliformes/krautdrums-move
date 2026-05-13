@@ -1,0 +1,24 @@
+* Drummer One — Cow bell voice (SPICE netlist for LTSpice/ngspice)
+* f0 = 536 Hz (formula-derived, SPICE-confirmed)
+*
+* Bridged-T resonator: in [─── Rb ───] out
+*                          \        /
+*                         C1     C2
+*                          \    /
+*                           tap
+*                            |
+*                           Rt
+*                            |
+*                           gnd
+
+V1   in  0   AC 1
+Rb   in  out  3.6k
+C1   in  tap  68n
+C2   tap out  100n
+Rt   tap 0    3.6k
+Rl   out 0    1Meg
+
+.ac dec 200 20 30k
+.print ac vdb(out)
+.options nopage
+.end
