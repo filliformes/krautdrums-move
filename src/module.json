@@ -1,7 +1,7 @@
 {
   "id": "krautdrums",
   "name": "KrautDrums",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "api_version": 2,
   "description": "16-voice tonal drum machine modeled on the 1969 Elka Drummer One.",
   "author": "Vincent Filliforme",
