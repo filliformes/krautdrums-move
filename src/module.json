@@ -26,7 +26,10 @@
             { "level": "Attitude", "label": "Attitude" },
             { "level": "General", "label": "General" },
             { "level": "Rhythms", "label": "Rhythms" }
-          ]
+          ,
+            { "key": "lvl_claves", "short_name": "CLAVS" },
+            { "key": "lvl_cowbell", "short_name": "Bell" },
+            { "key": "lvl_cymbals", "short_name": "CYMS" }]
         },
         "Kraut": {
           "label": "Kraut",
